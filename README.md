@@ -8,7 +8,7 @@
 - Explorer
 - Ignite
 
-![preview](.github/preview.webp)
+![preview](.github/preview.jpg)
 
 <hr>
 <div align="center">
