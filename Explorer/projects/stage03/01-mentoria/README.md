@@ -8,7 +8,7 @@
   > - Utilização de pseudo-elemento para criar um background no header
   > - Criação e estilização de um formulário com input e labels (type: text, time, date)
 
-## Desafio stage 03 - [View Project](https://alrenp.github.io/Explorer/projects/stage03/01-mentoria)
+## Desafio stage 03 - [View Project](https://alrenp.github.io/foguetes/Explorer/projects/stage03/01-mentoria/)
 
 <br>
 
