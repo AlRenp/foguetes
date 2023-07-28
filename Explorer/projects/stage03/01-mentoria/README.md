@@ -1,8 +1,8 @@
-# Mentoria - ### Stage 03
+# Mentoria
 
 ### Sobre o desafio
 
-- Simples página para simulár uma agenda de uma Mentoria
+- Simples página para simular agenda de uma Mentoria
   > - Utilização de pseudo-elemento para criar um background no header
   > - Criação e estilização de um formulário com input e labels (type: text, time, date)
 
