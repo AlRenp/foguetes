@@ -6,7 +6,7 @@
   > - Utilização de pseudo-elemento para criar um background no header
   > - Criação e estilização de um formulário com input e labels (type: text, time, date)
 
-![preview](.github/preview.jpg)
+![preview](./images/capa.jpg)
 
 ### Tech
 
