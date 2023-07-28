@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+legend,
+footer input {
+  font-family: "Staatliches", cursive;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset h2 {
+  color: #535971;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+input:focus {
+  outline: 1px solid #474c61;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  background: #efefef;
+}
+
+body::before {
+  content: "";
+  width: 100vw;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #535971;
+  z-index: -1;
+}
+
+.container {
+  width: 750px;
+  margin: 140px auto;
+}
+
+/* HEADER */
+
+header {
+  width: 417px;
+  color: white;
+  margin-bottom: 58px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* FORMULARIO */
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 64px;
+  border-radius: 20px 20px 0px 0px;
+  background: #fff;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+legend {
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+}
+
+/* INPUTS & LABELS */
+
+.name-wrapper {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
+.name-wrapper .input-wrapper {
+  width: 100%;
+}
+
+.input-wrapper label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-wrapper label span {
+  color: #c1bccc;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  font-size: 16px;
+  line-height: normal;
+  color: #535971;
+
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #e6e6f0);
+  background: var(--shapes-02, #fafafc);
+}
+
+.col-03 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-03 > div:nth-child(1) {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  padding: 51px 71px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+
+footer input {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+
+  padding: 15px 279px;
+  background: #ff5374;
+  border-radius: 20px;
+  border: none;
+}
+
+footer input:focus {
+  background-color: #f2748d;
+  border: none;
+}
+
+footer input:hover {
+  background: #f2748d;
+}
