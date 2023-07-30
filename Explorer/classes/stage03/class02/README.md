@@ -2,9 +2,10 @@
 
 > Projeito feito em aula
 
-### Sobre o desafio
+### Sobre o projeto
 
-- Simples página para introdução de Media Queries
+- Simples página para introdução de responsividade
+  > - @media queries
 
 ## Porjeto em Aula - [View Project](https://alrenp.github.io/foguetes/Explorer/classes/stage03/class02/)
 
