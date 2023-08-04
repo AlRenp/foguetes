@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 5.8rem;
+  color: #02799d;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #e1e1e6;
+
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-weight: 600;
+  color: #c4c4cc;
+}
+
+header p {
+  font-size: 3.2rem;
+}
+
+main p {
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  display: grid;
+  justify-content: center;
+
+  padding: 7.2rem 10.4rem;
+  background: #121214;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 36.5rem);
+  gap: 4.4rem 6rem;
+  margin-top: 6.2rem;
+}
+
+.banner {
+  background: #202024;
+  border: 1px solid #323238;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.content {
+  margin: 2.4rem 2.5rem;
+}
+
+img {
+  width: 100%;
+}
