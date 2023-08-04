@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+h1,
+h2 {
+  color: #a54328;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+p,
+li,
+strong {
+  font-size: 1.4rem;
+}
+
+ul li,
+ol li {
+  margin-left: 1.8rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* layouts */
+body,
+#button {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.6rem;
+  color: #a54328;
+}
+
+main {
+  max-width: 32rem;
+  margin-inline: auto;
+  margin-block: 5.3rem;
+  padding: 3.7rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+img {
+  width: 100%;
+  margin-block: 4.6rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin-bottom: 2.3rem;
+}
+
+/* second content */
+
+button {
+  padding: 0.8rem 1.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2.7rem;
+
+  border: none;
+  border-radius: 8px;
+  background: #a54328;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media (min-width: 1120px) {
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 19rem;
+
+    padding: 8rem;
+  }
+
+  .first-content {
+    max-width: 43.5rem;
+  }
+
+  .second-content {
+    max-width: 52.5rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 4rem;
+  }
+
+  p,
+  li,
+  strong {
+    font-size: 2rem;
+  }
+}
