@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage03/class05/" target="_blank">
       Project
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/AlRenp/foguetes/tree/main/Explorer/classes/stage03/class05" target="_blank">
       Solution
     </a>
     <span> | </span>
