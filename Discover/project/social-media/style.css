@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* Dark Mode */
+    --text-color-dark-mode: #fff;
+    --stroke-color-dark-mode: rgba(255, 255, 255, 0.50);
+    --surface-color-dark-mode: rgba(255, 255, 255, 0.10);
+    --surface-color-dark-mode-hover: rgba(255, 255, 255, 0.05);
+    --highlight-color-dark-mode: rgba(255, 255, 255, 0.20);
+
+    /* Light Mode */
+    --text-color-light-mode: #000;
+    --stroke-color-light-mode: rgba(0, 0, 0, 0.50);
+    --surface-color-light-mode: rgba(0, 0, 0, 0.05);
+    --surface-color-light-mode-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color-light-mode: rgba(0, 0, 0, 0.10);
+
+}
+
+/* Geral */
+a {
+    text-decoration: none;
+    color: var(--text-color-dark-mode);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* text-sm: 500 - 24 */
+figcaption,
+main li {
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+    color: var(--text-color-dark-mode);
+}
+
+#app {
+    width: min(58.8rem, 100%);
+    margin: 8rem auto 5.6rem;
+    padding: 2.4rem;
+}
+
+#app,
+figure,
+ul,
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    gap: .8rem;
+}
+
+header img {
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--stroke-color-dark-mode);
+}
+
+main {
+    width: 100%;
+}
+
+main ul {
+    margin-top: 2.8rem;
+    gap: 2.4rem;
+    text-align: center;
+}
+
+main li {
+    width: 100%;
+    padding: 1.6rem 2.4rem;
+    border-radius: .8rem;
+    border: 1px solid var(--stroke-color-dark-mode);
+    background-color: var(--surface-color-dark-mode);
+
+}
+
+main li:hover {
+    background: var(--surface-color-dark-mode-hover);
+    cursor: pointer;
+}
+
+main .social-media {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 4.8rem;
+}
+
+footer {
+    margin-top: 4.8rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.light {
+    background: url(assets/bg-mobile-light.jpg) no-repeat top center/cover;
+}
