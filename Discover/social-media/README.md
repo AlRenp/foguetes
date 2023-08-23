@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/Discover/project/social-media/" target="_blank">
+    <a href="https://alrenp.github.io/foguetes/Discover/social-media/" target="_blank">
       Project
     </a>
     <span> | </span>
