@@ -8,6 +8,8 @@
     font-size: 62.5%;
 
     /* Dark Mode */
+    --bg-url: url(assets/bg-mobile.jpg);
+    --bg-url-track: url(assets/MoonStars.svg);
     --text-color-dark-mode: #fff;
     --stroke-color-dark-mode: rgba(255, 255, 255, 0.50);
     --surface-color-dark-mode: rgba(255, 255, 255, 0.10);
@@ -24,8 +26,8 @@
 }
 
 .light {
-    background: url(assets/bg-mobile-light.jpg) no-repeat top center/cover;
-
+    --bg-url: url(assets/bg-mobile-light.jpg);
+    --bg-url-track: url(assets/Sun.svg);
     --text-color-dark-mode: var(--text-c);
     --stroke-color-dark-mode: var(--stroke-color-light-mode);
     --surface-color-dark-mode: var(--surface-color-light-mode);
@@ -57,7 +59,7 @@ main li {
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
-    background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+    background: var(--bg-url) no-repeat top center/cover;
     color: var(--text-color-dark-mode);
 }
 
@@ -89,6 +91,37 @@ header img {
 
 main {
     width: 100%;
+}
+
+.track {
+    width: fit-content;
+    margin: 2.4rem auto;
+    position: relative;
+}
+
+button {
+    width: 3.2rem;
+    height: 3.2rem;
+    border: none;
+    background: #FFF var(--bg-url-track) no-repeat center;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+
+.light button {
+    right: 0;
+}
+
+.track span {
+    display: block;
+    width: 64px;
+    height: 24px;
+    border-radius: 9999px;
+    border: 1px solid var(--stroke-color-dark-mode);
+    background: var(--surface-color-dark-mode);
 }
 
 main ul {
