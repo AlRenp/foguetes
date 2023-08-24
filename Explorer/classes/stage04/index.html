@@ -1,0 +1,82 @@
+<html lang="pt-br">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+
+<style>
+    body {
+        background-color: darkslategrey;
+    }
+</style>
+
+
+<body>
+
+    <script>
+        const num1 = prompt("Digite o primeiro número: ")
+        const num2 = prompt("Digite o segundo número: ")
+
+        print();
+
+        function soma(a, b) {
+            return Number(a) + Number(b)
+        }
+
+        function sub(a, b) {
+            return Number(a) - Number(b)
+        }
+
+        function mult(a, b) {
+            return Number(a) * Number(b)
+        }
+
+        function div(a, b) {
+            return Number(a) / Number(b)
+        }
+
+        function oddOrEven(a) {
+            if (a % 2 == 0) {
+                return 'par'
+            } else
+                return 'impar'
+        }
+
+        function equals(a, b) {
+            if (a == b) alert('Os dois numeros são iguais')
+            else alert('Os dois numeros não são iguais')
+        }
+
+        function primo(a) {
+            let aux = 0;
+            for (j = a; j >= 1; j--) {
+                if ((a % j == 0)) {
+                    aux++
+                }
+            }
+            if (aux > 1 && aux < 3) {
+                alert('primo')
+                aux = 0;
+            } else {
+                alert('Não é primo')
+            }
+        }
+
+        function print() {
+            alert("A soma dos 2 número é: " + soma(num1, num2))
+            alert("A subtração dos 2 número é: " + sub(num1, num2))
+            alert("A multiplicação dos 2 número é: " + mult(num2, num2))
+            alert("A divisão dos 2 número é: " + div(num1, num2))
+
+            alert('O primeiro número é ' + oddOrEven(num1))
+            alert('O segundo número é ' + oddOrEven(num2))
+
+            equals(num1, num2)
+        }
+    </script>
+</body>
+
+</html>
