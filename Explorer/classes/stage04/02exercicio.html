@@ -1,0 +1,57 @@
+<html lang="pt-br">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+
+<style>
+    body {
+        background-color: darkslategrey;
+    }
+</style>
+
+
+<body>
+    <script>
+        const alunos = [
+            {
+                name: 'Alysson',
+                note1: 10,
+                note2: 5
+            },
+            {
+                name: 'Renan',
+                note1: 2,
+                note2: 4
+            }
+        ]
+
+        function calcMedia() {
+            let alunoName = []
+            for (let aluno of alunos) {
+                let media = (aluno.note1 + aluno.note2) / 2
+                print(aluno.name, media)
+            }
+        }
+
+        function print(aluno, media) {
+            alert('A média do(a) aluno(a) ' + aluno + ' foi: ' + media);
+
+            if (verificaAprovacao(media)) alert('Parabéns, ' + aluno + '! Você foi aprovado(a) no concurso!');
+            else alert('Não foi desta vez, ' + aluno + '! Tente novamente!');
+        }
+
+        function verificaAprovacao(media) {
+            if (media >= 7) return true
+            else return false
+        }
+
+        calcMedia()
+
+    </script>
+</body>
+
+</html>
