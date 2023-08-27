@@ -36,6 +36,7 @@ body {
     border-radius: .6rem;
     width: min(42.8rem, 80%);
     padding: 4.8rem 6.4rem;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 .wrapper {
@@ -55,7 +56,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
     font-weight: 600;
-    color: #34355B;
+    color: var(--ft-color-base-900);
 }
 
 span {
@@ -63,7 +64,7 @@ span {
     margin-top: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
-    color: rgba(52, 53, 91, 0.80);
+    color: var(--ft-color-base-600);
 }
 
 .input-wrapper {
@@ -82,15 +83,20 @@ input {
     width: 6.2rem;
 }
 
+#inp-num:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
 
 .input-wrapper .submit {
     background-color: var(--bg-color-inp-sub);
-    color: var(--bg-color-App);
+    color: white;
     font-weight: 700;
 }
 
 .input-wrapper #inp-sub {
     border-radius: 0px 4px 4px 0;
+    border: 2px solid rgba(0, 0, 0, 0.10);
 }
 
 .input-wrapper #try-again {
@@ -101,8 +107,19 @@ input {
     background-color: #5e5ebc;
 }
 
-.error {
+.input-wrapper {
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.erro {
+    border: 1px solid #fd4e4e;
     animation: error .1s 2 alternate ease-in forwards;
+}
+
+
+.input-wrapper.erro #inp-sub {
+    background: #fd4e4e;
 }
 
 @keyframes error {
@@ -115,6 +132,7 @@ input {
     }
 
     100% {
+
         transform: translateX(10px);
     }
 }
