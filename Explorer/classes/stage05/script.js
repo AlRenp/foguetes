@@ -1,5 +1,4 @@
-// let randomNum = Math.round(Math.random() * 10)
-let randomNum = 1
+let randomNum = Math.round(Math.random() * 10)
 let aux = 1
 
 const btnTry = document.querySelector('#inp-sub');
@@ -57,8 +56,7 @@ function resetGame() {
     toggleClass()
     aux = 1
     inpuFocus(1)
-    exitApp()
-    // randomNum = Math.round(Math.random() * 10)
+    randomNum = Math.round(Math.random() * 10)
 }
 
 function toggleClass() {
