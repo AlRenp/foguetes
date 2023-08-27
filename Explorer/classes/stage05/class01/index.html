@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&family=Montserrat:wght@600&display=swap"
+        rel="stylesheet">
+
+    <title>Jogo de Adivinha</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div id="app" class="animate__animated">
+        <div id="try" class="wrapper">
+            <div class="title-wrapper">
+                <h1>Jogo da Adivinhação</h1>
+                <span>Adivinhe um número entre 0 a 10</span>
+            </div>
+            <div id="try-wrapper" class="input-wrapper">
+                <input type="number" id="inp-num" min="1" max="10">
+                <input type="submit" class="submit" id="inp-sub" value="Tentar">
+            </div>
+        </div>
+        <div id="winner" class="wrapper hide">
+            <div class="title-wrapper">
+                <h1>Acertou em 3 tentativas</h1>
+            </div>
+            <div class="input-wrapper">
+                <input type="submit" class="submit" id="try-again" value="Jogar novamente">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
