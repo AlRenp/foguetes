@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage05/class01" target="_blank">
+    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage05/class01/" target="_blank">
       Project
     </a>
     <span> | </span>
@@ -33,8 +33,12 @@
 <!-- OVERVIEW -->
 
 ## Overview
+<a href="https://github.com/AlRenp/foguetes/assets/70294566/1062d4cd-5865-4acf-92bd-4bea37669f60"> </a>
 
-![screenshot](.github/preview.mov)
+
+
+<!-- ![screenshot](https://github.com/AlRenp/foguetes/assets/70294566/1062d4cd-5865-4acf-92bd-4bea37669f60) -->
+
 
 ### Built With
 
