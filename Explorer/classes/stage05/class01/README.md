@@ -36,10 +36,6 @@
 <a href="https://github.com/AlRenp/foguetes/assets/70294566/1062d4cd-5865-4acf-92bd-4bea37669f60"> </a>
 
 
-
-<!-- ![screenshot](https://github.com/AlRenp/foguetes/assets/70294566/1062d4cd-5865-4acf-92bd-4bea37669f60) -->
-
-
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->

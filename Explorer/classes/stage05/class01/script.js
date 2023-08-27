@@ -62,6 +62,7 @@ function tryAgainClick() {
     }, 1300);
     aux = 1
     inpuFocus()
+    randomNum = Math.round(Math.random() * 10)
 }
 
 function toggleClass() {
