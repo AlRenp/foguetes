@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-base-500: #34355B;
+    --color-base-000: #000000;
+    --color-base-FFF: #ffffff;
+
+    --bg-color-body: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    --bg-color-lucky-card: #E4EDF1;
+    --bg-color-button: #FF9500;
+
+    --ff-Dancing: 'Dancing Script', cursive;
+    --ff-DM-Sans: 'DM Sans', sans-serif;
+    --ff-Monteserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    background: var(--bg-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    text-align: center;
+    width: min(42.8rem, 80%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 4.8rem 6.4rem;
+    border-radius: 5px;
+    background-color: var(--color-base-FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+.card-lucky {
+    padding: 1rem;
+    background-color: var(--bg-color-lucky-card);
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    color: var(--color-base-000);
+}
+
+.img-wrapper:hover,
+button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b56a01;
+}
+
+.hide {
+    display: none;
+}
+
+span,
+button {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--ff-DM-Sans);
+}
+
+span {
+    display: block;
+    margin-top: 1.4rem;
+    color: var(--color-base-500);
+}
+
+button {
+    padding: 1.6rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--bg-color-button);
+    color: var(--color-base-FFF);
+}
+
+h1 {
+    font-family: var(--ff-Monteserrat);
+    color: var(--color-base-500);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+p {
+    background-color: var(--bg-color-lucky-card);
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    padding: 1rem;
+    font-family: var(--ff-Dancing);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
