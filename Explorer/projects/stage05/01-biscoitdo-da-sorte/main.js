@@ -5,30 +5,6 @@ const title2 = document.getElementById('top1')
 const title1 = document.getElementById('top2')
 const btn = document.getElementById('btn')
 
-/* 
-    
-    [x] Adicinar evento MOUSEENTER & MOUSELEAVE no biscoito
-    [x] Adicionar evento CLICK no biscoito
-    [x] Adiconar evento CLICK no botão
-    [x] Adicionar evento na mensagem
-    [x] Criar uma estrutura de lista com mensagens da sorte
-    
-    [x] Sumir com o biscoito
-    [x] Aparecer com biscoito da sorte
-    [x] Aparecer mensagem da sorte
-    [x] Aparecer com botão 
-
-    Neste desafio você deverá criar um jogo chamado Biscoito da Sorte, no qual o usuário, a partir de um clique ou enter, abre um biscoito com a sua sorte do dia. Você aplicará o que aprendeu sobre vários temas, entre eles:
-    
-        ✅ Estrutura de dados HTML  
-        ✅ Animações com CSS 
-        ✅ Funções no Javascript 
-        ✅ Manipulação da DOM 
-        ✅ Funções *callback* 
-        ✅ Biblioteca JS Math() 
-        ✅ Arrays 
-
-*/
 
 fortuneCookie.addEventListener('mouseenter', startEventCokie)
 fortuneCookie.addEventListener('mouseleave', endEvent)
