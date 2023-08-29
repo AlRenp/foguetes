@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage05/class01/" target="_blank">
+    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage05/01-jogo-de-adivinhacao/" target="_blank">
       Project
     </a>
     <span> | </span>
