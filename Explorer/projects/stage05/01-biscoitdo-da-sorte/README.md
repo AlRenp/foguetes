@@ -2,7 +2,7 @@
 
 <div align="center">
     Desafio proposto no primeiro módulo do stage 05. 
-    Sesafio por <a href="https://rocketseat.com.br">Rocketseat</a>.
+    Desafio por <a href="https://rocketseat.com.br">Rocketseat</a>.
 </div>
 
 <div align="center">
