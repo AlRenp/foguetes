@@ -1,26 +1,22 @@
 <h1 align="center">Title</h1>
 
 <div align="center">
-    Desafio proposto .... 
-    Desafio por <a href="https://rocketseat.com.br">Rocketseat</a>.
+    <h3> Desenvolvido durante o evendo <i> <u> #boraCodar </u> </i>  </h3> 
+    <p> Desafio por <a href="https://rocketseat.com.br">Rocketseat</a>. </p>
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes" target="_blank">
+    <a href="https://alrenp.github.io/foguetes/boraCodar/01-music-player/" target="_blank">
       Project
     </a>
     <span> | </span>
-    <a href="https://github.com/AlRenp/foguetes/tree/main/Explorer/" target="_blank">
+    <a href="https://github.com/AlRenp/foguetes/tree/main/boraCodar/01-music-player" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.figma.com/community/">
+    <a href="https://www.figma.com/file/J3fvsbVBzqq7DNgj99RpRZ/%23boraCodar">
       Layout
-    </a>
-    <span> | </span>
-    <a href="">
-      Challenge
     </a>
   </h3>
 </div>
@@ -46,22 +42,18 @@
 
 - html
 - css
-- js
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 <p>
-    Biscoito da Sorte, no qual o usuário, a partir de um clique ou enter, abre um biscoito com a sua sorte do dia.
-    
-        ✅ Estrutura de dados HTML  
-        ✅ Animações com CSS 
-        ✅ Funções no Javascript 
-        ✅ Manipulação da DOM 
-        ✅ Funções *callback* 
-        ✅ Biblioteca JS Math() 
-        ✅ Arrays 
+    Layout de uma Player de Música.
+
+    ✅ Grid 
+    ✅ Animações
+    ✅ Display Mobile
+
 </p>
 
 ## Contact
