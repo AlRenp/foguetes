@@ -1,4 +1,4 @@
-<h1 align="center">Title</h1>
+<h1 align="center">Player de Música</h1>
 
 <div align="center">
     <h3> Desenvolvido durante o evendo <i> <u> #boraCodar </u> </i>  </h3> 
