@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --text-color-bold: #271A45;
+    --text-color-cash: rgba(39, 26, 69, 1);
+
+    --background-color: #D9CDF7;
+}
+
+/* === GERAL ================================== */
+button {
+    background: transparent;
+    border: none;
+}
+
+body,
+button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(--text-color-bold);
+}
+
+body {
+    line-height: 100%;
+
+    height: 100vh;
+    display: flex;
+    gap: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+
+/* === LEFT SECTION ================================== */
+.left {
+    position: relative;
+    width: 45rem;
+}
+
+.sofa {
+    width: 100%;
+}
+
+figure:nth-child(1),
+figure:nth-child(2) {
+    display: none;
+}
+
+figure.visible {
+    display: block;
+}
+
+figcaption {
+    position: absolute;
+    top: .8rem;
+    right: 5rem;
+}
+
+/* === RIFGHT SECTION ================================== */
+.right,
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.right {
+    gap: 2rem;
+}
+
+.text {
+    gap: 1.8rem;
+}
+
+.text .cod {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.text h1 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.text .price {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+button.add {
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+    padding: 1rem 1.8rem;
+    border: 1px solid var(--text-color-bold);
+    border-radius: 99rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sofá Margot II - Rosé</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="left">
+        <figure id="figure-static" class="img-wrapper visible">
+            <img src="./assets/image/sofaStatic.svg" alt="">
+            <figcaption>
+                <button id="btn_360" onclick="toggleClass()">
+                    <img src="./assets/image/360_icon.svg" alt="">
+                </button>
+            </figcaption>
+        </figure>
+
+        <figure id="figure-animated" class="img-wrapper">
+            <img class="sofa" src="./assets/image/./sofa.gif" alt="" srcset="">
+            <figcaption>
+                <button id="btn_close" onclick="toggleClass()">
+                    <img src=" ./assets/image/close_icon.svg" alt="" srcset="">
+                </button>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="right">
+        <div class="text">
+            <span class="cod">CÓDIGO: 42404</span>
+            <h1>Sofá Margot II - Rosé</h1>
+            <span class="price"> R$ 4.000</span>
+        </div>
+        <button class="add">
+            adicionar à cesta
+        </button>
+    </section>
+
+    <script src="./assets/js/script.js">
+        function toggleClass(element, className) {
+            document.documentElement.classList.toggle('animated')
+        }
+    </script>
+
+</body>
+
+</html>
