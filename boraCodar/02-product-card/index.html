@@ -48,10 +48,21 @@
         </button>
     </section>
 
-    <script src="./assets/js/script.js">
-        function toggleClass(element, className) {
-            document.documentElement.classList.toggle('animated')
+    <script>
+
+        function toggleClass() {
+            const cardFigure_static = document.querySelector('#figure-static')
+            const cardFigure_animated = document.querySelector('#figure-animated')
+
+            toggle(cardFigure_static)
+            toggle(cardFigure_animated)
         }
+
+        function toggle(element) {
+            element.classList.toggle('visible');
+        }
+
+
     </script>
 
 </body>
