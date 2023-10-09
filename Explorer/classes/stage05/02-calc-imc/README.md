@@ -1,26 +1,21 @@
-<h1 align="center">Title</h1>
+<h1 align="center">IMC</h1>
 
 <div align="center">
-    Desafio proposto .... 
-    Desafio por <a href="https://rocketseat.com.br">Rocketseat</a>.
+    Projeto desenvolvido durante aulas didáticas do <a href="https://github.com/maykbrito"> Mayk Brito </a> na plataforma no curso da <a href="https://rocketseat.com.br">Rocketseat</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes" target="_blank">
+    <a href="https://alrenp.github.io/foguetes/Explorer/classes/stage05/02-calc-imc" target="_blank">
       Project
     </a>
     <span> | </span>
-    <a href="https://github.com/AlRenp/foguetes/tree/main/Explorer/" target="_blank">
+    <a href="https://github.com/AlRenp/foguetes/tree/main/Explorer/classes/stage05/02-calc-imc" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.figma.com/community/">
+    <a href="https://www.figma.com/file/1zf9wYwlAIdGXfFnIoWrda/IMC-(Copy)?type=design&node-id=6-5&mode=design&t=KMDEl1eMt9aMAUs6-0">
       Layout
-    </a>
-    <span> | </span>
-    <a href="">
-      Challenge
     </a>
   </h3>
 </div>
@@ -53,15 +48,10 @@
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 <p>
-    Biscoito da Sorte, no qual o usuário, a partir de um clique ou enter, abre um biscoito com a sua sorte do dia.
-    
-        ✅ Estrutura de dados HTML  
-        ✅ Animações com CSS 
-        ✅ Funções no Javascript 
-        ✅ Manipulação da DOM 
-        ✅ Funções *callback* 
-        ✅ Biblioteca JS Math() 
-        ✅ Arrays 
+    Este projeto é um simples calculador de IMC, aplicando um conceito de modularição para organização e compreenção do código.
+
+      ✅ Modularização
+      ✅ Exports e Imports
 </p>
 
 ## Contact
