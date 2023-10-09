@@ -136,6 +136,7 @@ input:focus {
     background-color: var(--bg-overlay);
     visibility: hidden;
     opacity: 0;
+    text-align: center;
 }
 
 .modal {
@@ -143,7 +144,7 @@ input:focus {
 }
 
 .modal.card {
-    width: min(36.3rem, 90%);
+    width: min(40.3rem, 90%);
     padding-block: 6.4rem;
     align-items: center;
 }
