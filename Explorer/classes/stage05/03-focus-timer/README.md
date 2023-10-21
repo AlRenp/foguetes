@@ -41,19 +41,17 @@
 - js
 ## Features
   <p>
-    
     O FocusTumer é um Timer desenvolvido em Javascript com possibilidade de alternar entre dark/light mode e música de fundo.  
     Com a utilização de módulos ES6, que nos ajudam a organizar o código de maneira modular e reutilizáve.
-    
-    
   </p>
-    
+  <p>
     Algumas funcionalidades do porjeto:
 
       - Tema dark e light
       - Efeitos sonoros
       - callback functions
       - Conceito de Estado
+  </p>
 
 
 ## Contact
