@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --bg-color-dark-mode: #121214;
+    --bg-color-white-mode: #F8F8FC;
+    --bg-color-button-wrapper-dark-mode: #242424;
+    --bg-color-button-wrapper-white-mode: #242424;
+    --tx-color-dark-mode: #FFFFFF;
+    --tx-color-white-mode: #000000;
+
+}
+
+/* === GERAL ============================================= */
+
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+
+html.light {
+    --bg-color-dark-mode: var(--bg-color-white-mode);
+    --tx-color-dark-mode: var(--tx-color-white-mode);
+}
+
+
+html.light #btn-sun,
+html:not(.light) #btn-moon {
+    display: none;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-dark-mode);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: var(--tx-color-dark-mode);
+}
+
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 9.6rem;
+    color: var(--tx-color-white);
+}
+
+#controls-wrapper {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 2.2rem 4rem;
+    border-radius: 100rem;
+    background-color: var(--bg-color-button-wrapper-dark-mode);
+}
+
+
+.running #btn-play,
+.running #btn-timer,
+.music-on #btn-sound-off,
+html:not(.running) #btn-pause,
+html:not(.running) #btn-stop,
+html:not(.music-on) #btn-sound-on {
+    display: none;
+}
+
+#mode {
+    position: absolute;
+    top: 3.2rem;
+    right: 3.2rem;
+}
+
+button {
+    transition: .1s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

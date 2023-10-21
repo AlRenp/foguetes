@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Focus Timer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="./src/js/main.js" type="module" defer></script>
+
+</head>
+
+<body>
+
+    <button id="mode">
+        <img id="btn-sun" src="./assets/image/sun.svg">
+        <img id="btn-moon" src="./assets/image/moon.svg">
+    </button>
+
+    <div class="timer">
+        <span id="minute">25</span>
+        <span>:</span>
+        <span id="second">00</span>
+    </div>
+
+    <div id="controls-wrapper">
+        <button id="btn-play">
+            <a href=""></a>
+            <img src="./assets/image/play.svg" data-action="toggleRunning">
+        </button>
+
+        <button id="btn-pause">
+            <img src="./assets/image/pause.svg" data-action="toggleRunning">
+        </button>
+
+
+        <button id="btn-stop">
+            <img src="./assets/image/stop.svg" data-action="reset">
+        </button>
+
+        <button id="btn-timer">
+            <img src="./assets/image/timer.svg" data-action="set">
+        </button>
+
+
+        <button id="btn-sound-off">
+            <img src="./assets/image/sound-off.svg" data-action="toggleMusic">
+        </button>
+
+        <button id="btn-sound-on">
+            <img src="./assets/image/sound-on.svg" data-action="toggleMusic">
+        </button>
+    </div>
+
+</body>
+
+</html>
