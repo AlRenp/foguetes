@@ -140,7 +140,6 @@ html:not(.running) #btn-pause {
 
 .card:hover {
     cursor: pointer;
-    background: var(--bg-card-select);
 }
 
 .card:hover svg {
@@ -170,9 +169,12 @@ html.light .img-white {
 }
 
 @media(max-width: 900px) {
-
     main {
-        gap: 3.2rem;
+        gap: 6.2rem;
+    }
+
+    #timer-wrapper {
+        gap: 2rem;
     }
 
     .timer {
@@ -201,6 +203,7 @@ html.light .img-white {
 }
 
 @media(max-width: 630px) {
+
     main {
         flex-direction: column;
     }
