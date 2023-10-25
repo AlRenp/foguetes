@@ -1,4 +1,4 @@
-<h1 align="center">Title</h1>
+<h1 align="center">Focus Timer</h1>
 
 <div align="center">
     Desafio proposto no terceiro módulo do stage 05.  <br>
@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io//foguetes/tree/main/Explorer/projects/stage05/02-focus-timer">
+    <a href="https://alrenp.github.io/foguetes/Explorer/projects/stage05/02-focus-timer/">
       Project 
     </a>
     |
