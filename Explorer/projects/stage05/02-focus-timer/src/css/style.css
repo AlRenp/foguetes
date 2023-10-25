@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --dark-mode: #121214;
+    --light-mode: #FFFFFF;
+
+
+    --bg-card-light: #e1e1e67d;
+    --bg-card-dark: #242424;
+    --bg-card-select: #02799D;
+
+    --color-dark-mode: #FFFFFF;
+    --color-light-mode: #323238;
+}
+
+/* === MODE - LIGHT && DARK ==================================== */
+#mode {
+    position: absolute;
+    top: 3.2rem;
+    right: 3.2rem;
+}
+
+.light {
+    --dark-mode: var(--light-mode);
+    --bg-card-dark: var(--bg-card-light);
+    --color-dark-mode: var(--color-light-mode);
+    --color-light-mode: var(--color-dark-mode);
+}
+
+html:not(.light) path {
+    fill: var(--color-dark-mode);
+}
+
+html.light #sun,
+html:not(.light) #moon {
+    display: none;
+}
+
+#sun:hover path {
+    fill: gold;
+}
+
+#moon:hover path {
+    fill: #c0c0c0;
+}
+
+#moon path,
+#sun path {
+    transition: .1s;
+}
+
+
+/* === GERAL ==================================== */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--dark-mode);
+    color: var(--color-dark-mode);
+    transition: .2s;
+}
+
+#app,
+#timer-wrapper,
+.timer,
+#controls {
+    display: flex;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.card.sound-on path,
+.card:hover path {
+    fill: white;
+}
+
+/* === APP ==================================== */
+#app {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* === TIMER ==================================== */
+#timer-wrapper {
+    flex-direction: column;
+    gap: 4rem;
+}
+
+html.running #btn-play,
+html:not(.running) #btn-pause {
+    display: none;
+}
+
+.timer {
+    font-size: 12.6rem;
+    gap: .6rem;
+}
+
+#controls {
+    justify-content: space-between;
+}
+
+/* === SOUND-CARDs ==================================== */
+#sound-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 13.8rem);
+    gap: 3.2rem;
+}
+
+.card {
+    padding-block: 4.8rem;
+    border-radius: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-card-dark);
+}
+
+.card {
+    transition: background .1s ease-in-out;
+}
+
+.card svg {
+    transition: transform .1s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    background: var(--bg-card-select);
+}
+
+.card:hover svg {
+    transform: scale(1.2);
+}
+
+.card.sound-on {
+    background: var(--bg-card-select);
+}
+
+#app {
+    padding: 0 10rem;
+}
+
+
+main {
+    width: 82.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+html:not(.light) .img-black,
+html.light .img-white {
+    display: none;
+}
+
+@media(max-width: 900px) {
+
+    main {
+        gap: 3.2rem;
+    }
+
+    .timer {
+        font-size: 8rem;
+    }
+
+    img {
+        width: 3.2rem;
+    }
+
+    #sound-cards {
+        grid-template-columns: repeat(2, 10rem);
+        gap: 1.6rem;
+        justify-content: space-between;
+    }
+
+    .card {
+        height: .9rem;
+        border-radius: 1.2rem;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media(max-width: 630px) {
+    main {
+        flex-direction: column;
+    }
+}
