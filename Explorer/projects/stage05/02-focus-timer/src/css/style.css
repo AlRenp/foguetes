@@ -205,6 +205,8 @@ html.light .img-white {
 @media(max-width: 630px) {
 
     main {
+        height: 100vh;
         flex-direction: column;
+        justify-content: center;
     }
 }
