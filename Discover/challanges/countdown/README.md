@@ -1,7 +1,7 @@
 <h1 align="center">Countdown</h1>
 
 <div align="center">
-   <h3> Desenvolvido proposto no Discover</h3>
+   <h3> Projeto proposto no Discover</h3>
     <p>Neste desafio foi criado uma página de coming soon para o lançamento de um site, produto ou serviço, e na página deve ter um countdown timer informando quanto tempo falta para o lançamento..</p> 
 
    <a href="https://rocketseat.com.br">Rocketseat</a>.
@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/nlw/trilha%20explorer/08-doctorCare/">
+    <a href="hhttps://alrenp.github.io/foguetes/Discover/challanges/countdown">
       Project 
     </a>
     |
@@ -42,17 +42,11 @@
 - js
 ## Features
   <p>
-    
+    Projeto é um Countdown que inclui algumas funções, recursivades, eventos, ações entre outras estratégias implementadas.
   </p>
-    
-    Algumas funcionálidades da página:
 
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
 
 ## Contact
 
 - GitHub [@AlRenp](https://github.com/alrenp)
+- Linkedin [@AlRenp](https://www.linkedin.com/in/alyssonrenan/)
