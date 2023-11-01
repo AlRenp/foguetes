@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Countdown</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <script type="module" src="./src/js/main.js" defer></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- === MODAL  ======================================= -->
+        <form id="modal">
+            <div class="content animate__animated animate__faster ">
+                <button id="close">
+                    <img src="./assets/image/close.svg" alt="" data-action="close">
+                </button>
+                <div class="title">Informções de contato</div>
+
+                <!-- === INPUTS  ======================================= -->
+                <div class="input-wrapper">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Seu nome">
+                </div>
+                <div class="input-wrapper">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="contato@email.com">
+                </div>
+                <button class="btn" type="submit" data-action="sub">Enviar</button>
+            </div>
+        </form>
+
+        <img src="./assets/image/top-image.svg" alt="">
+        <!-- === MAIN ======================================= -->
+        <main class="container">
+            <!-- === TIMER  ======================================= -->
+            <div id="timer-wrapper">
+                <div class="title">ready to launch in... </div>
+
+                <!-- === TIMING  ======================================= -->
+                <div id="date">
+                    <div class="card">
+                        <span class="card-title">Dias</span>
+                        <span id="days">01</span>
+                    </div>
+                    <span>:</span>
+                    <div class="card">
+                        <span class="card-title">Horas</span>
+                        <span id="hours">02</span>
+                    </div>
+                    <span>:</span>
+                    <div class="card">
+                        <span class="card-title">Minutos</span>
+                        <span id="minutes">02</span>
+                    </div>
+                    <span>:</span>
+                    <div class="card">
+                        <span class="card-title">segundos</span>
+                        <span id="seconds">01</span>
+                    </div>
+
+
+                </div>
+
+                <!-- === BUTTON Sub  ======================================= -->
+                <div class="sign-up">
+                    <p>Inscreva-se para saber mais sobre o lançamento</p>
+                    <button class="btn" id="btn-signUp" data-action="sign">
+                        Inscreva-se
+                    </button>
+                </div>
+            </div>
+            <!-- === IMG  ======================================= -->
+            <div class="img">
+                <img src="./assets/image/rocket.svg" alt="Um foguete espacial">
+            </div>
+        </main>
+        <img src="./assets/image/bottom-image.svg" alt="">
+    </div>
+</body>
+
+</html>

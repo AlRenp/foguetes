@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --primary-color: #6C63FF;
+    --secundary-color: #4D4C59;
+    --paragraph-color: #9C9AB6;
+    --span-color: #C8C8C8;
+    --bg-overlay: rgba(0, 0, 0, 0.70);
+
+}
+
+body,
+input,
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+/* === GERAL ========================================== */
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#app {
+    margin: 0 auto;
+}
+
+#app img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    padding: 1.6rem 3.2rem;
+    border-radius: 1rem;
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+/* === fonts ========================================== */
+.title {
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: 3.78px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.card-title {
+    color: #C8C8C8;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.card>span:last-child {
+    color: #4D4C59;
+    font-size: 7.2rem;
+    height: fit-content;
+}
+
+#date>span {
+    font-size: 5rem;
+}
+
+p {
+    color: #9C9AB6;
+    font-size: 1.4rem;
+}
+
+/* === main ========================================== */
+main,
+#timer-wrapper,
+#date,
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-inline: auto;
+    gap: 8rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+/* === Timer ========================================== */
+
+#timer-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer-wrapper>div {
+    width: 100%;
+}
+
+#date {
+    gap: 2rem;
+    align-items: last baseline;
+    margin-bottom: 4.6rem;
+}
+
+.card {
+    width: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up {
+    flex-direction: column;
+    gap: 3.1rem;
+}
+
+
+
+/* === IMG ========================================== */
+.img {
+    width: 60.7rem;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* === Modal ========================================== */
+
+html:not(.modal) #modal {
+    display: none;
+}
+
+#modal,
+.content,
+.input-wrapper {
+    display: flex;
+}
+
+#modal {
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-overlay);
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+}
+
+.content {
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: .8rem;
+    padding: 3.2rem 6.4rem;
+    background-color: white;
+}
+
+.input-wrapper {
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.input-wrapper label {
+    color: #4D4C59;
+}
+
+.input-wrapper input {
+    width: 30rem;
+    height: 4rem;
+    border: 1px solid var(--paragraph-color);
+    border-radius: .6rem;
+    padding: .8rem;
+    color: var(--secundary-color);
+}
+
+input::placeholder {
+    color: var(--span-color);
+}
+
+.input-wrapper input:focus {
+    outline: 1px solid var(--primary-color) !important;
+}
+
+.content .btn {
+    padding-block: 1rem;
+    width: fit-content;
+    border-radius: .4rem;
+}
+
+.content .title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.content {
+    position: relative;
+}
+
+.content #close {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    transition: .1s ease-in-out;
+}
+
+#close:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.content img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
