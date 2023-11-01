@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href="hhttps://alrenp.github.io/foguetes/Discover/challanges/countdown">
+    <a href="https://alrenp.github.io/foguetes/Discover/challanges/countdown">
       Project 
     </a>
     |
