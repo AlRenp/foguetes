@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: #1A1924;
+    color: white;
+}
+
+#app {
+    padding: 3.2rem 2.4rem;
+    height: 100vh;
+    max-width: 880px;
+
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    margin: auto;
+}
+
+.user-info {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.user-info img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#user-status .status::before {
+    content: '';
+    width: .8rem;
+    height: .8rem;
+    display: block;
+    border-radius: 50%;
+    background: #00B37E;
+}
+
+#user-status .status {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #00B37E;
+}
+
+/* === CHAT ============================== */
+#chat {
+    overflow-y: scroll;
+    display: grid;
+    gap: 3rem;
+    font-size: 1.2rem;
+    padding-bottom: 2.4rem;
+}
+
+#chat::-webkit-scrollbar {
+    display: none;
+}
+
+
+#chat-date {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.balloon .b-message {
+    margin-top: 1rem;
+    padding: 1.4rem;
+
+    border-radius: 0 .8rem .8rem .8rem;
+    background-color: #633BBC;
+    width: fit-content;
+}
+
+.balloon:not(.you) {
+    width: 45vw;
+}
+
+.balloon.you {
+    margin-left: auto;
+}
+
+.balloon.you .b-date {
+    text-align: right;
+}
+
+.balloon.you .b-message {
+    border-radius: 8px 8px 0px 8px;
+    background-color: #07847E;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.4rem 2.4rem;
+    border-radius: 999px;
+    background: #282843;
+}
+
+input {
+    flex: 1;
+    outline: none;
+    color: white;
+}
+
+.input-wrapper:focus-within {
+    outline: 1px solid white;
+}
+
+i {
+    font-size: 2.4rem;
+    color: white;
+}
+
+input,
+button {
+    border: none;
+    background-color: transparent;
+}
