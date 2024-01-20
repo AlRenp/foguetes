@@ -1,20 +1,17 @@
 <h1 align="center">Title</h1>
 
 <div align="center">
-   <h3> Desenvolvido na edição #00 do NLW. </h3>
-    <p>A missão Origin do NLW#8 foi desenhada para quem está começando na programação.</p> 
-
-   <a href="https://rocketseat.com.br">Rocketseat</a>.
+    <h3> Desenvolvido durante o evendo <i> <u> #boraCodar </u> </i>  </h3> 
+    <p> Desafio por <a href="https://rocketseat.com.br">Rocketseat</a>. </p>
 </div>
-
 <div align="center">
   <h3>
     <a href="https://alrenp.github.io/foguetes/nlw/trilha%20explorer/08-doctorCare/">
       Project 
     </a>
     |
-    <a href="https://github.com/AlRenp/foguetes/tree/main/nlw/trilha%20explorer/08-doctorCare">
-      Soluction
+    <a href="https://www.rocketseat.com.br/boracodar/desafios-anteriores/um-chat-desafio-04">
+      Challange
     </a>
     |
     <a href="https://www.figma.com/community/file/1102912263666619803/DoctorCare">
@@ -39,20 +36,7 @@
 ### Built With
 - html
 - css
-- js
-## Features
-  <p>
-    
-  </p>
-    
-    Algumas funcionálidades da página:
-
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
 
 ## Contact
 
-- GitHub [@AlRenp](https://github.com/alrenp)
+- Linkedin [@Alysson Renan](https://www.linkedin.com/in/alyssonrenan/)
