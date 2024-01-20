@@ -6,7 +6,7 @@
 </div>
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/nlw/trilha%20explorer/08-doctorCare/">
+    <a href="https://alrenp.github.io/foguetes/boraCodar/04-chat/">
       Project 
     </a>
     |
@@ -14,7 +14,7 @@
       Challange
     </a>
     |
-    <a href="https://www.figma.com/community/file/1102912263666619803/DoctorCare">
+    <a href="https://www.figma.com/community/file/1200070743637495660">
       Layout
     </a>
   </h3>
@@ -25,7 +25,6 @@
 
 - [Overview](#overview)
 - [Built With](#built-with)
-- [Features](#features)
 - [Contact](#contact)
 
 
@@ -39,4 +38,4 @@
 
 ## Contact
 
-- Linkedin [@Alysson Renan](https://www.linkedin.com/in/alyssonrenan/)
+- Linkedin: [Alysson Renan](https://www.linkedin.com/in/alyssonrenan/)
