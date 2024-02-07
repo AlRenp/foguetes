@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --back-body-color: linear-gradient(154deg, #413015 1.89%, #F39C12 100%);
+    --beck-body-dark-color: ;
+
+    --dark-theme: #292C35;
+
+    --moon-color: #F1C40F;
+    --sun-color: #F39C12;
+
+    --zero-color: #000000;
+
+}
+
+html.light {
+    --dark-theme: #F1F1F1;
+    --back-body-color: #FEB94C;
+}
+
+body {
+    font-size: 1.6rem;
+    background: var(--back-body-color);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: var(--dark-theme);
+    display: grid;
+    place-items: center;
+    transition: .3s;
+}
+
+.switcher-wrapper {
+    position: relative;
+    height: 50px;
+    width: 120PX;
+    padding-inline: 5px;
+    border-radius: 999px;
+    display: flex;
+    gap: 3.8rem;
+    align-items: center;
+    background-color: var(--zero-color);
+}
+
+button {
+    position: absolute;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+
+    transition: .5s;
+}
+
+.light button {
+    left: 75px;
+}
+
+i {
+    position: absolute;
+    transition: 1s;
+    right: 5px;
+
+    font-size: 30px;
+}
+
+.light i {
+    right: calc(100% - 35px);
+}
+
+html.light .moon,
+html:not(.light) .sun {
+    opacity: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ph-moon-stars {
+    color: #F1C40F;
+}
+
+.ph-sun-dim {
+    color: #F39C12;
+}
