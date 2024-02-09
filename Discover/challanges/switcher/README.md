@@ -9,27 +9,19 @@
 
 <div align="center">
   <h3>
-    <a href="https://alrenp.github.io/foguetes/nlw/trilha%20explorer/08-doctorCare/">
+    <a href="https://alrenp.github.io/foguetes/Discover/challanges/switcher/">
       Project 
     </a>
     |
-    <a href="https://github.com/AlRenp/foguetes/tree/main/nlw/trilha%20explorer/08-doctorCare">
-      Soluction
+    <a href="https://efficient-sloth-d85.notion.site/Desafio-Theme-Switcher-dbabdf77f70d43298df382c8e805fc13">
+      Challange
     </a>
     |
-    <a href="https://www.figma.com/community/file/1102912263666619803/DoctorCare">
+    <a href="https://www.figma.com/community/file/1241117469370182245">
       Layout
     </a>
   </h3>
 </div>
-
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
 
 
 ## Overview
@@ -40,19 +32,8 @@
 - html
 - css
 - js
-## Features
-  <p>
-    
-  </p>
-    
-    Algumas funcionálidades da página:
 
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
-      ✅ 
 
 ## Contact
 
-- GitHub [@AlRenp](https://github.com/alrenp)
+- Lnkedin [Alysson Renan](https://www.linkedin.com/in/alyssonrenan/)
