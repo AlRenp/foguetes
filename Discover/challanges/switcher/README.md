@@ -1,10 +1,7 @@
-<h1 align="center">Title</h1>
+<h1 align="center">Switcher</h1>
 
 <div align="center">
-   <h3> Desenvolvido na edição #00 do NLW. </h3>
-    <p>A missão Origin do NLW#8 foi desenhada para quem está começando na programação.</p> 
-
-   <a href="https://rocketseat.com.br">Rocketseat</a>.
+    <p> Nesse desafio foi desenvolvido uma página que com um SWITCHER  para alternar entre o tema dark e light.</p> 
 </div>
 
 <div align="center">
@@ -22,6 +19,8 @@
     </a>
   </h3>
 </div>
+
+<div align="center"> <a href="https://rocketseat.com.br" >Rocketseat</a></div>
 
 
 ## Overview
