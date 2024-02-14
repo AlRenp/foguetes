@@ -1,11 +1,4 @@
-<h1 align="center">Title</h1>
-
-<div align="center">
-   <h3> Desenvolvido na edição #00 do NLW. </h3>
-    <p>A missão Origin do NLW#8 foi desenhada para quem está começando na programação.</p> 
-
-   <a href="https://rocketseat.com.br">Rocketseat</a>.
-</div>
+<h1 align="center">Login Form</h1>
 
 <div align="center">
   <h3>
@@ -23,12 +16,15 @@
   </h3>
 </div>
 
+<div align="center">
+   <a href="https://rocketseat.com.br">Rocketseat</a>
+</div>
+
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Built With](#built-with)
-- [Features](#features)
 - [Contact](#contact)
 
 
@@ -39,11 +35,6 @@
 ### Built With
 - html
 - css
-- js
-## Features
-  <p>
-    
-  </p>
 
 ## Contact
 

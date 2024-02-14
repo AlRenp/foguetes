@@ -22,48 +22,13 @@
     --color-svg-stroke-focus: #FFC632;
 }
 
-/* === Geral ============================== */
-body {
-    background-color: var(--bg-body);
-    padding: 4rem 2rem;
-    color: white;
-}
-
-body,
-label,
-button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
-}
-
-input {
-    width: 100%;
-    background-color: transparent;
-    padding: 1.2rem;
-}
-
-main>img {
-    display: none;
-}
-
-fieldset {
-    border: none;
-}
-
-legend span {
-    display: inline;
-}
-
-svg {
-    display: block;
-}
-
 /* === Fonts ============================== */
 .title {
     font-size: 2.4rem;
     font-weight: 500;
     color: var(--tertiary-color);
 }
+
 
 .sub-title {
     color: var(--primary-color-600);
@@ -91,28 +56,9 @@ button {
     color: var(--secundary-color);
 }
 
-/* === App ============================== */
-#app {
-    width: 33.4rem;
-    margin-inline: auto;
-}
-
 .logo {
-    margin-bottom: 3rem;
+    transition: .5s;
 }
-
-/* === Header ============================== */
-header {
-    margin-bottom: 2.8rem;
-}
-
-.title-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: .5rem;
-}
-
 
 /* === Inputs ============================== */
 .lbl-inp-wrapper {
@@ -140,6 +86,14 @@ header {
     top: 50%;
     left: 1.2rem;
     transform: translateY(-50%);
+}
+
+.input-wrapper.pass .img:nth-child(3) {
+    left: calc(100% - 20px - 1.2rem);
+}
+
+.input-wrapper.pass .img:nth-child(3):hover {
+    cursor: pointer;
 }
 
 input:focus {
@@ -208,37 +162,136 @@ input:focus {
     background-color: var(--color-svg-stroke-focus);
 }
 
-@media(min-width: 400px) {
-    body {
-        padding: 0;
+/* === Geral ============================== */
+body {
+    background-color: var(--bg-body);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+body,
+label,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+
+aside {
+    display: none;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    padding: 1.2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend span {
+    display: inline;
+}
+
+svg {
+    display: block;
+}
+
+
+
+/* === App ============================== */
+#app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* === Main ============================== */
+main {
+    width: min(37.5rem, 90%);
+    height: 100%;
+    margin-inline: auto;
+    margin-top: 4rem;
+}
+
+main .logo {
+    margin-bottom: 3rem;
+}
+
+/* === Header ============================= */
+header {
+    margin-bottom: 2.8rem;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .5rem;
+}
+
+.form-wrapper {
+    transition: .5s;
+}
+
+@media (min-width: 720px) {
+    main {
+        width: min(57.5rem, 90%);
+        display: grid;
+        place-content: center;
+        margin-top: 0;
     }
 
-
-    #app {
-        width: 100vw;
-        padding: 0;
+    .form-wrapper {
+        border-radius: .4rem;
+        background-color: var(--bg-form);
+        padding: 5.5rem 12rem;
     }
 
     .logo {
         position: absolute;
+        top: 3.2rem;
+        left: 3.2rem;
     }
+}
 
-    main {
+@media (min-width: 770px) {
+
+    #app {
         display: flex;
     }
 
-    form {
+    main,
+    aside {
         flex: 1;
     }
 
-    img {
-        flex: 1;
+    .form-wrapper {
+        background-color: transparent;
+        padding: 0;
     }
 
-    main>img {
-        display: block;
+    aside {
+        display: grid;
+        width: 50vw;
+    }
+
+    aside img {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         object-fit: cover;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .form-wrapper {
+        background-color: var(--bg-form);
+        padding: 5.5rem 12rem;
     }
 }
