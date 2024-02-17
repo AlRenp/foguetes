@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --font-color-title: rgba(255, 255, 255, 1);
+    --font-color-p: rgba(255, 255, 255, 1);
+
+    --bg-body: #130F1E;
+    --border-focus: #D9CDF7;
+
+    --bg-btn-primary: #8257E5;
+    --bg-btn-primary-hover: #9674E5;
+
+    --bg-btn-secundary: #3C3748;
+    --bg-btn-secundary-hover: #6A617F;
+
+}
+
+body,
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+
+body {
+    background-color: var(--bg-body);
+}
+
+#app,
+.text,
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    width: 40.6rem;
+    height: 100vh;
+    padding: 4.5rem;
+    justify-content: center;
+    gap: 6.8rem;
+    margin-inline: auto;
+}
+
+.text {
+    gap: .8rem;
+}
+
+.title {
+    font-size: 3.2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    opacity: .5;
+}
+
+.button-wrapper {
+    gap: 3.2rem;
+}
+
+button {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 2.4rem;
+    border: transparent;
+}
+
+button:nth-child(1) {
+    background: var(--bg-btn-primary);
+}
+
+button:nth-child(1):hover {
+    background: var(--bg-btn-primary-hover);
+}
+
+button:nth-child(2) {
+    background: var(--bg-btn-secundary);
+}
+
+button:nth-child(2):hover {
+    background: var(--bg-btn-secundary-hover);
+}
+
+button:nth-child(3) {
+    background: transparent;
+}
+
+button.disable {
+    opacity: .5;
+}
+
+button.disable:hover {
+    cursor: not-allowed;
+}
+
+button:focus {
+    outline: 2px solid var(--border-focus);
+}
+
+button.loading {
+    cursor: wait;
+}
+
+button.move:hover {
+    cursor: move;
+}
+
+button {
+    transition: .2s;
+}
